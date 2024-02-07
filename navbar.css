@@ -1,0 +1,29 @@
+.top1{
+    display: flex;
+    gap: 10px;
+    color: white;
+    background-color: #131921ff;
+    justify-content: space-around;
+}
+.s1{
+    display: flex;
+    
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+}
+.b1{
+    position: relative;
+    border:none;    
+    top:5px;
+    left:5px;
+    color:#ffffff;
+    background-color:#222e3dff;
+}
+.u2{
+    background-image:url("https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB600086755_.png");
+}
+.b1:hover{
+    border: 2px white solid;
+}

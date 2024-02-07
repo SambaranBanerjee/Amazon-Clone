@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+        body{
+            background-color: #e3e6e6ff;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <section id="categories" style="display: flex;justify-content:space-around;"></section>
+    <section id="carousel"></section>
+    <section id="products"></section>
+    <section id="footer" style="display: flex;justify-content:space-around;color:#fff;background-color:#222e3dff;padding-bottom:20px;padding-top: 20px;">
+        <div>
+            <li class="heading"><strong>Get to Know Us</strong></li>
+            <li><a href="https://www.aboutamazon.in/" style="color: #ffffff;">About Us</a></li>
+            <li><a href="https://amazon.jobs/en/" style="color: #ffffff;">Careers</a></li>
+            <li><a href="https://press.aboutamazon.in/" style="color: #ffffff;">Press Releases</a></li>
+            <li><a href="https://www.amazon.science/" style="color: #ffffff;">Amazon Science</a></li>
+        </div>
+        <div>
+            <li class="heading"><strong>Connect with Us</strong></li>
+            <li><a href="https://www.facebook.com/v" style="color: #ffffff;">Facebook</a></li>
+            <li><a href="https://twitter.com/?lang=en" style="color: #ffffff;">Twitter</a></li>
+            <li><a href="https://www.instagram.com/" style="color: #ffffff;">Instagram</a></li>
+        </div>
+        <div>
+            <li class="heading"><strong>Make Money with Us</strong></li>
+            <li>Sell on Amazon</li>
+            <li>Sell under Amazon Accelerator</li>
+            <li>Protect and Build Your Brand</li>
+            <li>Amazon Global Selling</li>
+            <li>Become an Affiliate</li>
+            <li>Fulfilment by Amazon</li>
+            <li>Advertise Your Products</li>
+            <li>Amazon Pay on Merchants</li>
+        </div>
+    </section> 
+    <script>
+        $(function(){
+            $("#container").load('./navbar.html');
+        });
+        $(function(){
+            $("#carousel").load('./carousel.html');
+        });
+        $(function(){
+            $("#products").load('./products.html');
+        });
+    </script>
+</body>
+</html>
